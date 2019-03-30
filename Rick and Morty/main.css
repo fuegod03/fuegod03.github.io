@@ -1,0 +1,61 @@
+.main-img img{
+width: 99.99%;
+}
+
+main {
+    margin-top: -4px;
+padding-bottom: -200p;
+  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Hme4C4_7iosf3emf/stars-in-the-sky-looped-animation-beautiful-night-with-twinkling-flares-hd-1080_sr8wih9v__F0000.png");
+}
+.container {
+  margin-left: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-top: 10%;
+}
+
+.active, .active2,.active3,.active4,.active5,.active6{
+background-image: url("portal.gif") ;
+background-position: center;
+background-repeat: no-repeat;
+}
+.glic,.glic2,.glic3,.glic4,.glic5,.glic6{
+  position:relative;
+z-index: -1;
+}
+.box {
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  background: rgb(51, 51, 51);
+  max-width: 300px;
+  height: 600px;
+  margin-left: 10%;
+  padding: 0 0 10px 0;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5%;
+}
+
+.box img {
+  border-radius: 5%;
+}
+
+.in-box {
+  /* color: #01B1CA; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 3%;
+}
+.in-box p {
+  margin-top: 9%;
+  border-bottom: 1px solid rgb(68, 68, 68);
+}
+.left-p {
+  color: #4f9e3a;
+}
+.right-p {
+  color: #01b1ca;
+}
