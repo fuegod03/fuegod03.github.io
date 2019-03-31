@@ -1,0 +1,155 @@
+
+
+footer{
+display: grid;
+grid-template: 555px 200px 200px/ 1fr;
+width: 100%;
+}
+
+footer .location-container{
+  width: 100%;
+grid-column: auto;
+grid-row:1;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;
+background-size: cover;
+position: relative;
+}
+
+footer .location-container .location-img{
+  margin-top: 62px;
+  grid-column: 1;
+  grid-row:1;
+}
+
+ footer .location-container .location-img a{
+  float: right;
+  margin-right: 70px;
+
+}
+
+footer .location-container .location-info{
+  padding: 150px 0 0 60px;
+  grid-column: 2;
+  grid-row:1;
+}
+footer .location-container .location-info h2{
+  font-size: 3em;
+color: #003643;
+}
+footer .location-container .location-info h3{
+  color: #f7911d;
+font-size: 1.7em;
+margin-bottom: 0.4em;
+}
+footer .location-container .location-info p{
+  font-size: 1.2em;
+color: #003643;
+line-height: 1.4em;
+margin-bottom: 1em;
+font-size: 1.2em;
+    color: #003643;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+footer .location-container .location-info .btn{
+
+  cursor: pointer;
+  zoom: 1;
+background-color: #003643;
+padding: 12px 40px;
+font-size: 13px;
+font-weight: normal;
+letter-spacing: 0.05em;
+color: #fff;
+text-transform: uppercase;
+}
+
+/* second box */
+footer .info-container{
+grid-column: auto;
+grid-row: 2;
+display: grid;
+grid-template-columns: 2fr 2fr;
+grid-template-rows: 1fr;
+background: #f7911d;
+color: #fff;
+font-weight: normal;
+}
+
+footer .info-container .info-contact{
+
+}
+footer .info-container .info-contact img{
+height: 150px;
+  min-height: 118px;
+  float: left;
+padding: 5% 5% 0px 15%;
+}
+footer .info-container .info-contact .info{
+}
+footer .info-container .info-contact .info h5{
+  font-style: normal!important;
+font-weight: 600 !important;
+font-size: 1em;
+color: #fff;
+text-align: justify;
+}
+footer .info-container .info-contact .info a{
+  text-decoration: none;
+  color: #003643;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+footer .info-container .info-contact .info address{
+
+}
+
+
+footer .info-container .info-img img{
+  padding: 20px;
+  float: right;
+}
+/* thid box */
+footer .social-container{
+  grid-column: auto;
+  grid-row: 3;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+footer .social-container a{
+  font-size: 50px;
+  color: #8e8f91;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+footer h5{
+  font-size: 20px;
+  color: Black;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+}
+footer h6{
+  font-size: 15px;
+  color: Black;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+
+}

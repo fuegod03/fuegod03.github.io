@@ -1,0 +1,129 @@
+#single-industries{
+  max-width: 1280px;
+}
+#single-industries h3{
+  font-size: 35px;
+  color: #fb9501;
+  font-weight: 400;
+}
+#single-industries p{
+  color:#6a6b6c;
+}
+#single-industries .btn{
+  padding: 15px 40px;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #f7911d;
+  border-color: #f7911d;
+}
+
+
+#single-industries .first{
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#single-industries .first .left{
+  line-height: 1.6em;
+}
+#single-industries .first .right{
+  font-size: 1.6em;
+  padding: 0 140px;
+}
+#single-industries .first .right span{
+  padding-top: 30px;
+  border-top: 2px solid #fb9501;
+}
+
+
+#single-industries .second{
+  background-image: url("https://splendordesign.com/wp-content/uploads/2019/02/Client-panels-2000x1000.jpg");
+  color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 80px;
+}
+#single-industries .second .tittle{
+  padding-top: 60px;
+  color: #fff;
+  line-height: 1.4em;
+  font-size: 1.4em;
+  margin-bottom: 0.8em;
+}
+#single-industries .second .content{
+  padding: 30px 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#single-industries .second .content div{
+  padding: 15px;
+  margin: 15px;
+}
+#single-industries .second .content div a{
+  text-decoration: none;
+}
+#single-industries .second .content div a img{
+  padding-bottom: 10px;
+  border-bottom: 7px solid orange;
+}
+#single-industries .second .content div a p{
+  color: #ffffff!important;
+}
+
+
+#single-industries .third{
+  padding: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#single-industries .third .left{
+  padding: 0 300px 0 0px;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  color: #6a6b6c;
+}
+#single-industries .third .left span{
+  border-top: 2px solid #fb9501;
+}
+
+#single-industries .third .right{
+  line-height: 1.6em;
+  font-size: 1em;
+}
+
+
+#single-industries .fourth{
+  text-align: center;
+  padding: 100px;
+  background-image:url("https://splendordesign.com/wp-content/uploads/2019/02/case-study-bg-mockup.jpg");
+}
+#single-industries .fourth p{
+  color:#fff;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  margin-bottom: 1.4em;
+}
+
+
+#single-industries .fifth{
+  text-align: center;
+  padding: 150px;
+}
+#single-industries .fifth h2{
+  line-height: 1.4em;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #fb9501;
+  margin-bottom: 0.8em;
+}
+#single-industries .fifth p{
+  font-size: 1.1em;
+  line-height: 1.4em;
+  margin-bottom: 1.4em;
+}

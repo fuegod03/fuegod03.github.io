@@ -1,0 +1,11 @@
+
+.single-blog{
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 30px;
+  padding-left: 10px;
+}
+.single-blog .box1{
+grid-column: 1;
+}

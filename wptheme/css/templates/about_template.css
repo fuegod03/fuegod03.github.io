@@ -1,0 +1,141 @@
+/* Setting global values */
+#single-about{
+  max-width: 1280px;
+}
+#single-about h3{
+  font-size: 35px;
+color: #fb9501;
+font-weight: 400;
+}
+#single-about p{
+color:#6a6b6c;
+}
+#single-about .btn{
+padding: 15px 40px;
+font-size: 13px;
+font-weight: normal;
+letter-spacing: 0.05em;
+color: #fff;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+
+#single-about .first{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 100px;
+  margin-bottom: 100px;
+}
+#single-about .first .left{
+  padding: 50px;
+}
+#single-about .first .left h6 {
+  font-weight: bold !important;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  letter-spacing: 0.05em;
+  color: #6a6b6c;
+}
+#single-about .first .left h2{
+  font-size: 2.3em;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0.3em;
+  line-height: 1em;
+  padding-bottom: 30px;
+}
+#single-about .first .left p{
+  line-height: 1.6em;
+  font-size: 0.9em;
+}
+
+#single-about .first .right{
+    padding-left: 50px;
+}
+
+
+#single-about .second img{
+  max-width: 1280px;
+}
+
+
+#single-about .third{
+  text-align: center;
+  padding: 150px;
+  border-bottom: 1px solid lightgray;
+}
+#single-about .third h3{
+  padding-bottom: 50px;
+}
+#single-about .third p{
+  padding-bottom: 30px;
+}
+#single-about .third button {
+  background-color: #f7911d;
+  color: #fff;
+}
+
+
+#single-about .fourth{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid lightgray;
+}
+#single-about .fourth .left{
+  padding: 150px;
+}
+#single-about .fourth .left h2{
+  vertical-align: top;
+  font-size: 1.9em;
+  line-height: 1.2em;
+  color: #6a6b6c;
+}
+#single-about .fourth .left h2 span{
+  padding-top: 20px;
+  border-top: 3px solid #fb9501;
+}
+
+
+#single-about .fourth .right{
+  padding: 80px 0;
+}
+#single-about .fourth .right li{
+  line-height: 1.6em;
+  padding-bottom: 40px;
+  font-size: 1.1em;
+}
+#single-about .fourth .right li b{
+  border-bottom: 3px solid orange;
+}
+
+
+#single-about .fifth{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px;
+  margin-top: 100px;
+}
+#single-about .fifth .left{
+
+}
+#single-about .fifth .left h3{
+  font-size: 1.9em;
+  margin-bottom: 0.8em;
+}
+#single-about .fifth .left p{
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin-bottom: 1.4em;
+}
+#single-about .fifth .left button{
+  background-color: #f7911d;
+  color: #fff;
+}
+
+#single-about .fifth .right img{
+margin-left: 50px;
+}

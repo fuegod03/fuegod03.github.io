@@ -1,0 +1,109 @@
+#brand-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr ;
+  grid-gap: 20px;
+
+}
+
+#brand-section .tittle{
+    background: #f9fafc;
+  grid-row: 1;
+  grid-column: 1/5;
+  color: #f7911d;
+  font-weight: 900;
+  font-size: 4.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  height: 200px;
+}
+#brand-section .tittle h1{
+  margin-top: 40px;
+}
+
+
+#brand-section .box{
+align-self: center;
+opacity: .5;
+}
+#brand-section .box:hover{
+  opacity: 1;
+}
+#brand-section .box img{
+  position: relative;
+  left: 35%;
+}
+#brand-section .brand-box1{
+grid-column: 1/2;
+grid-row: auto;
+}
+
+#brand-section .brand-box2{
+grid-column: 2/3;
+grid-row: auto;
+}
+
+#brand-section .brand-box3{
+grid-column: 3/4;
+grid-row: auto;
+}
+
+#brand-section .brand-box4{
+grid-column: 1/2;
+grid-row: auto;
+}
+
+#brand-section .brand-box5{
+grid-column: 2/3;
+grid-row: auto;
+}
+
+#brand-section .brand-box6{
+grid-column: 3/4;
+grid-row: auto;
+}
+
+#brand-section .brand-box7{
+grid-column: 1/2;
+grid-row: auto;
+}
+
+#brand-section .brand-box8{
+grid-column: 2/3;
+grid-row: auto;
+}
+
+#brand-section .brand-box9{
+grid-column: 3/4;
+grid-row: auto;
+}
+
+
+
+
+
+
+
+
+
+/* Phones */
+@media only screen and (max-width: 767px){
+  #brand-section .large-title{
+    font-size: 2.5rem;
+    left: 0;
+  }
+
+  #brand-section .brand-container{
+    grid-template-columns: 1fr;
+  }
+  #brand-section .brand-container .large-icons{
+    display: none;
+  }
+  #brand-section .brand-container .info .info-box h4{
+    font-size: .9rem;
+  }
+  #brand-section .brand-container .info .info-box .date{
+    font-size: .8rem;
+  }
+}

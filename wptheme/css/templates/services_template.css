@@ -1,0 +1,97 @@
+/* Setting global values */
+#single-service,
+#single-service img{
+  max-width: 1280px;
+}
+#single-service h3{
+  font-size: 35px;
+color: #fb9501;
+font-weight: 400;
+}
+#single-service p{
+color:#6a6b6c;
+}
+#single-service .btn{
+padding: 15px 40px;
+font-size: 13px;
+font-weight: normal;
+letter-spacing: 0.05em;
+color: #fff;
+text-transform: uppercase;
+cursor: pointer;
+background-color: #f7911d;
+}
+
+
+#single-service .first,
+#single-service .third,
+#single-service .fifth{
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: 0 100px;
+margin-bottom: 100px;
+}
+
+#single-service .first .left,
+#single-service .third .left,
+#single-service .fifth .left{
+  padding: 50px 0;
+}
+#single-service .first .left h5,
+#single-service .third .left h5,
+#single-service .fifth .left h5 {
+  font-weight: bold !important;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    letter-spacing: 0.05em;
+    color: #6a6b6c;
+}
+#single-service .first .left h2,
+#single-service .third .left h2,
+#single-service .fifth .left h2{
+  font-size: 2.3em;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0.3em;
+  line-height: 1em;
+  padding-bottom: 30px;
+}
+#single-service .first .left p,
+#single-service .third .left p,
+#single-service .fifth .left p{
+  line-height: 1.6em;
+  font-size: 0.85em;
+}
+
+
+#single-service .first .right,
+#single-service .third .right,
+#single-service .fifth .right{
+  grid-gap: 10px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* #single-service .first .right ul{
+  margin-right: 20px;
+} */
+#single-service .first .right ul li,
+#single-service .third .right ul li,
+#single-service .fifth .right ul li{
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #6a6b6c;
+  padding: 12px 0;
+  max-width: 190px;
+  border-bottom: 1px solid gray;
+}
+/* buttons */
+#single-service .first .right .btn,
+#single-service .fifth .right .btn{
+      margin-top: 25px;
+}
+#single-service .third .right .btn{
+  margin-top: 50px;
+}
